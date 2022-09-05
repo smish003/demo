@@ -111,9 +111,9 @@ Below is the updated code:
 
 *Insert your the image of your final bar chart here*
 
-![Sales in South](/odu-cs625-datavis/fall22-hw1-smish003/blob/master/Sales-in-South.png)
+![Sales in South](/smish003/demo/blob/main/Sales-in-South.png)
 
-![Sales-in-South-East.png](/odu-cs625-datavis/fall22-hw1-smish003/blob/master/Sales-in-South-East.png)
+![Sales-in-South-East.png](/smish003/demo/blob/main/Sales-in-South-East.png)
 
 1. *What conclusions can you draw from the chart?*
 
