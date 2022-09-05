@@ -49,7 +49,9 @@ library(tidyverse)
 #### Data Visualization Exercises
 
 1. (Q2) *How many rows are in mpg? How many columns?*
+        
         There are 234 rows and 11 columns.
+        
         *Syntax:* 
         ```
         nrow(mpg) # To find row count
@@ -58,6 +60,7 @@ library(tidyverse)
         ```
 
 2. (Q3) *What does the drv variable describe? Read the help for ?mpg to find out.*
+        
         The drv variable depicts the type of drive train, 
         *where f = front-wheel drive*, 
         *r = rear wheel drive*,
@@ -99,8 +102,11 @@ Below is the updated code:
 ## Google Colab
 
 1. *What are the URLs of your Google Colab notebooks (both Python and R)?*
-    Below are the URLs of Google Colab notebooks:
+   
+   Below are the URLs of Google Colab notebooks:
+   
     [Python-Link](https://colab.research.google.com/drive/1WO42PKLFuCJ3N_ZbANQYwelLbRqzAEBJ?usp=sharing)
+    
     [R-Link](https://colab.research.google.com/drive/19E8JMK5BnKIKlgfzfOZwpa6MjGy_Kj78?usp=sharing)
     
 ## Tableau
