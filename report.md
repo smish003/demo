@@ -61,8 +61,8 @@ library(tidyverse)
 
 2. (Q3) *What does the drv variable describe? Read the help for ?mpg to find out.*
         The drv variable depicts the type of drive train,\
-        *where f = front-wheel drive, 
-        r = rear wheel drive,
+        *where f = front-wheel drive, \
+        r = rear wheel drive,\
         4 = 4wd*
 
 3. (Q4) *Make a scatterplot of hwy vs cyl.*
