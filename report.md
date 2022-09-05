@@ -48,11 +48,10 @@ library(tidyverse)
 
 #### Data Visualization Exercises
 
-1. (Q2) *How many rows are in mpg? How many columns?*
+1. (Q2) *How many rows are in mpg? How many columns?*\
         
-        \There are 234 rows and 11 columns.
-        
-        *Syntax:* 
+        There are 234 rows and 11 columns.\
+        **Syntax:** 
         ```
         nrow(mpg) # To find row count
         ncol(mpg) # To find column count
