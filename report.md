@@ -53,7 +53,6 @@ library(tidyverse)
         There are 234 rows and 11 columns.
         
         *Syntax:* 
-        
         ```
         nrow(mpg) # To find row count
         ncol(mpg) # To find column count
@@ -62,11 +61,10 @@ library(tidyverse)
 
 2. (Q3) *What does the drv variable describe? Read the help for ?mpg to find out.*
         
-        The drv variable depicts the type of drive train, 
-        
-        *where f = front-wheel drive*, 
-        *r = rear wheel drive*,
-        *4 = 4wd*
+        *The drv variable depicts the type of drive train,
+        where f = front-wheel drive, 
+        r = rear wheel drive,
+        4 = 4wd*
 
 3. (Q4) *Make a scatterplot of hwy vs cyl.*
        Below is the code for making scatterplot
