@@ -50,7 +50,7 @@ library(tidyverse)
 
 1. (Q2) *How many rows are in mpg? How many columns?*
         
-        There are 234 rows and 11 columns.
+        \There are 234 rows and 11 columns.
         
         *Syntax:* 
         ```
