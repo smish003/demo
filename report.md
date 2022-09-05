@@ -37,8 +37,8 @@ library(tidyverse)
   ***Whether simple or complex*** 
   *the right visualization can bring everyone on the same page,* 
   `regardless of their level of expertise.`
-*Example of Visualization can be found here*
-[Examples of data visualization](https://www.tableau.com/learn/articles/data-visualization).
+  Example of Visualization can be found below
+*[Examples of data visualization](https://www.tableau.com/learn/articles/data-visualization).*
 
 3. *Create a level 3 heading*
 
@@ -51,8 +51,11 @@ library(tidyverse)
 1. (Q2) *How many rows are in mpg? How many columns?*
         There are 234 rows and 11 columns.
         *Syntax:* 
-        ** nrow(mpg) # To find row count **
-        ** ncol(mpg) # To find column count **
+        ```
+        nrow(mpg) # To find row count
+        ncol(mpg) # To find column count
+        
+        ```
 
 2. (Q3) *What does the drv variable describe? Read the help for ?mpg to find out.*
         The drv variable depicts the type of drive train, 
@@ -63,9 +66,9 @@ library(tidyverse)
 3. (Q4) *Make a scatterplot of hwy vs cyl.*
        Below is the code for making scatterplot
 
-```
-ggplot(data = mpg)+ geom_point(mapping = aes(x = hwy, y = cyl))
-```
+     ```
+       ggplot(data = mpg)+ geom_point(mapping = aes(x = hwy, y = cyl))
+     ```
 
 #### Workflow: basics Exercises
 
@@ -81,21 +84,25 @@ fliter(mpg, cyl = 8)
 filter(diamond, carat > 3)
 ```
 Below is the updated code:
-```
-library(tidyverse)
-ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy))
-filter(mpg, cyl == 8)
-filter(mpg, cyl > 3)
-```
-*Explaination:*
+ ```
+  library(tidyverse)
+  ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy))
+  filter(mpg, cyl == 8)
+  filter(mpg, cyl > 3)
+  ```
+***Explaination:***
 * The ggplot function argument name is mis-spelled it should be data not dota.
 * Funtion filter() is not defined properly and also the operator is not used correctly it should be filter() instead of fliter() and == instead of = .
 * Correct dataset and column variable is not defined inorder to filter the data. Dataset is mpg not diamond and the column name is cyl not carat.
 
+
 ## Google Colab
 
 1. *What are the URLs of your Google Colab notebooks (both Python and R)?*
-
+    Below are the URLs of Google Colab notebooks:
+    [Python-Link](https://colab.research.google.com/drive/1WO42PKLFuCJ3N_ZbANQYwelLbRqzAEBJ?usp=sharing)
+    [R-Link](https://colab.research.google.com/drive/19E8JMK5BnKIKlgfzfOZwpa6MjGy_Kj78?usp=sharing)
+    
 ## Tableau
 
 *Insert your the image of your final bar chart here*
